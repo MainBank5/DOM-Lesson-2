@@ -51,7 +51,7 @@ console.log(paragraph);
 document.body.appendChild(paragraph); //this will add a new child to body and append it
 
 const div = document.createElement('div');
-const text = document.createTextNode('Hello World');
+const text = document.createTextNode('Fill in your credentials');
 div.appendChild(text);
 document.querySelector('ul').appendChild(div)
 
@@ -81,5 +81,6 @@ items.forEach((item, index) => {
 
 const title = document.createElement('h1');
 title.innerHTML = 'Favorite Movies';
-title.className='heading';
-document.querySelector('ul').appendChild(title)
+document.querySelector('#wrapper').appendChild(title)
+
+console.log(title)
