@@ -17,3 +17,14 @@ h1 {
 ul {
     list-style: none;
 }
+
+.card {
+    background-color: #f4f4f4;
+    border: 1px #ccc solid;
+    padding: 18px;
+}
+
+.dark {
+    background-color: #333;
+    color:#fff;
+}
